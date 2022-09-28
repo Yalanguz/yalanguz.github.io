@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;    
+    list-style-type: none;
+}
+body{
+    width: 100%;
+    background: rgb(90, 90, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+a{
+    text-decoration: none;
+}
+.maincont{
+    margin-top: 15px;    
+    background: rgb(158, 158,158) ;
+    width: 90%;
+    height:auto;   
+    box-shadow: 0px 0px 10px 6px white;
+}
+.navcont{
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+.navname{
+    width: 35%;
+    height: 70px;
+    text-align: center;
+}
+.navname :hover{
+    color: rgb(81, 206, 252);
+    transform: scale(1.05);
+}
+.navname h3{
+    margin-left: 50px;
+    margin-top: 20px;
+    transition: all 0,5s;
+    color: white;
+}
+.navlink{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    width: 65%;
+    height: 70px;
+    transition: all 1s;
+    color: white;
+}
+.navlink :hover{
+    color: rgb(81, 206, 252);
+    transform: scale(1.05);
+}
+.navlink h3{
+    color: white;
+}
+.linkbox{
+    width: 23%;
+    height: 30px;
+    margin-left: 50px;
+    border-bottom: 2px solid rgb(198, 192, 192);
+    text-align: center;
+}
+.bodycont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 690px;
+}
+.infobox{
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+.infobox h4{
+    color: white;
+    text-align: justify;
+}
+.infobox h4 a{
+    color: rgb(37, 2, 2);
+    font-size: xx-large;
+}
+.infoboxcontact{
+    margin: 10px;
+    justify-content: left;
+    width: 40%;
+    height: 100%;
+}
+.socialbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    transition: all 1s;
+}
+.socialbox :hover{
+    transition: all 1s;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px 5px white;
+    border-radius: 50%;
+
+}
+.ghbox{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+.ghbox svg{
+    width: 50px;
+    height: 50px;
+}
+.lebox{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+.lebox svg{
+    width: 50px;
+    height: 50px;
+}
+.tbox{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+.tbox svg{
+    width: 50px;
+    height: 50px;
+}
+.ytbox{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+.ytbox{
+    width: 50px;
+    height: 50px;
+}
+.contactme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 76%;
+}
+.listcontactme{
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+}
+.contactmetex{
+    width: 100%;
+    height: 30%;
+}
+.contactmetex h1{
+    color: white;
+    font-size: 55px;
+}
+.contactinput{
+    margin-top: 20px;
+    width: 100%;
+    height: 70%;
+    transition: all 1s;
+}
+.contactinput :hover{
+    transition: all 1s;
+    transform: scale(1.02);
+}
+input{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 6px white;
+}
+button{
+    margin-left: 50px;
+    width: 220px;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 6px white;
+    transition: all 1s;
+}
+.mailto{
+    width: 100%;
+    height: 9%;
+    color: white;
+    text-align: center;
+}
+.mailto a{
+    color: white;
+}
+
+.id{
+    color: rgb(226, 224, 243);
+    transition: all 1s;
+}
+.id :hover{
+    color: rgb(99, 88, 194) ; 
+    text-align: center;
+    transform: scale(1.2);
+}
+.textbox{
+    margin-left: 70px;
+    margin-top: 150px;
+    width: 90%;
+    height: 40%;
+    text-align: left;
+    color: white;
+    transition: all 1s;
+}
+.textbox :hover{
+  transform: scale(1.2);
+}
+
+.imgbox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 60%;
+    height: 100%;
+}
+.imgbox img{
+    width: 80%;
+    height: 90%;
+}
+
