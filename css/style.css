@@ -5,6 +5,7 @@
 }
 body{
     width: 100%;
+    height: 100%;
     background: rgb(90, 90, 90);
     display: flex;
     justify-content: center;
@@ -17,8 +18,10 @@ a{
     margin-top: 15px;    
     background: rgb(158, 158,158) ;
     width: 90%;
+    height: 100%;
     height:auto;   
     box-shadow: 0px 0px 10px 6px white;
+    
 }
 .navcont{
     display: flex;
@@ -69,14 +72,16 @@ a{
     justify-content: center;
     width: 100%;
     height: 690px;
+    
 }
 .infobox{
     margin: 10px;
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 40%;
+    width: 50%;
     height: 100%;
+    
 }
 .infobox h4{
     color: white;
@@ -91,6 +96,7 @@ a{
     justify-content: left;
     width: 40%;
     height: 100%;
+    
 }
 .socialbox{
     display: flex;
@@ -159,6 +165,7 @@ a{
 .contactmetex{
     width: 100%;
     height: 30%;
+    
 }
 .contactmetex h1{
     color: white;
@@ -176,23 +183,24 @@ a{
 }
 input{
     margin: 10px;
-    width: 300px;
+    width: 90%;
     height: 30px;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0px 0px 10px 6px white;
 }
 button{
-    margin-left: 50px;
-    width: 220px;
-    height: 40px;
+    margin-top: 20px;
+    margin-left: 14%;
+    width: 70%;
+    height: 30px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px 6px white;
     transition: all 1s;
 }
 .mailto{
     width: 100%;
-    height: 9%;
+    height: 5%;
     color: white;
     text-align: center;
 }
@@ -218,19 +226,124 @@ button{
     color: white;
     transition: all 1s;
 }
-.textbox :hover{
-  transform: scale(1.2);
+.textboxindex :hover{
+  transform: scale(1.04);
 }
 
 .imgbox{
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    transition: all 1s;
+}
+.imgbox img{
+    border-radius: 50%;
+    width: 45%;
+    height: 45%;
+    box-shadow: 0px 0px 30px 20px white ;
+}
+.imgboxcontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
     height: 100%;
 }
-.imgbox img{
-    width: 80%;
-    height: 90%;
+.imgboxcontact img{
+    border-radius: 50%;
+    width: 45%;
+    height: 45%;
+    box-shadow: 0px 0px 30px 20px white ;
 }
+@media screen and ( max-width:767px) {
+    .bodycont{
+        margin-top: 50px;
+        display: block;
+        width: 100%;        
+        float: inline-start;
+    }
+    .infoboxcontact{
+        margin-top: 200px;
+        width: 100%;
+        height: 60%;
+        
+    }
+    .contactmetex{
+        width: 100%;
+        height: 15%;
+        
+        text-align: center;
+    }
+    .contactme h1{
+        font-size: x-large;
+    }
+    .socialbox{
+        margin-left: 25%;
+        margin-top: 10px;
+        width: 50%;
+        height: 10%;
+        transition: all 1s;
+        
+    }
+    input{
+        width: 95%;
+        height: 30px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 6px white;
+    }    
+    .infobox{
+        margin-top: 80px;
+        width: 100%;
+        height: 50%;
+        
+    }
+    .infobox h4{
+        margin: 25px;
+        height: 100%;
+        color: black;
+        font-size: small;        
+    }
+    .imgbox{ 
+        margin-left: 25%;
+        width: 50%;
+        height: 35%;
+        
+    }
+    .maincont{
+        height: 100%;
+        display: block;
+    }
+    .navcont{
+        position: fixed;
+        display: flex;
+        width: 90%;
+        height: 70px;
+    }
+    .textbox{
+        position: fixed;
+        margin-top: 50px;
+        padding: 15px;
+        text-align: center;
+        color: black;
+        z-index: 10;
+     }
+    .textboxindex h2{
+        text-align: center;       
+     }
+     .imgboxcontact{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 20%;
+        width: 60%;
+        height: 40%;
+        
+    }
+    
+    
+}
+
 
